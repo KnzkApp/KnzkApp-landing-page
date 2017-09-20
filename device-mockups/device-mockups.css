@@ -709,11 +709,10 @@
 	top: 12.2641509%; bottom: 12.2641509%; left: 10.5403012%; right: 18.6005314%;
 }
 
-
 /* Nexus 7 */
 .device-mockup.nexus7,
 .device-mockup.nexus7.portrait {
-	padding-bottom: 156.521739%;
+	padding-bottom: 172.5%;
 }
 
 .device-mockup.nexus7.landscape {
