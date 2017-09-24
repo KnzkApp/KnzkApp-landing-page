@@ -1,7 +1,7 @@
 # KnzkApp-landing-page
 神崎丼アプリ ランディングページ
 
-https://knzkapp.yuzu.tk/
+https://knzkdev.net/knzkapp/
 
 ## 使用テーマ
 [New Age](https://github.com/BlackrockDigital/startbootstrap-new-age)
