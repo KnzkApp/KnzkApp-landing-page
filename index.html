@@ -3,9 +3,30 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="神崎丼専用Mastodonクライアント KnzkApp のランディングページです。">
-    <title>KnzkApp - 神崎丼専用Mastodonクライアント</title>
-    <link rel="shortcut icon" href="/images/knzkdevfavicon.ico">
+    <meta content='#212121' name='theme-color'>
+
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="/img/icon.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="/img/android-chrome.png">
+
+    <meta name="description" content="独自機能インスタンス向けのMastodonクライアントです。様々な機能に対応。オープンソース。">
+    <title>KnzkApp - 独自機能インスタンス向けMastodonクライアント</title>
+    <meta name="keywords" content="KnzkApp,神崎丼アプリ,Knzk.me,ねじりわさび,Mastodonクライアント,アプリ,独自機能">
+
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@neziri_wasabi"/>
+    <meta name="twitter:title" content="KnzkApp - 独自機能インスタンス向けMastodonクライアント"/>
+    <meta name="twitter:description" content="独自機能インスタンス向けのMastodonクライアントです。様々な機能に対応。オープンソース。"/>
+    <meta name="twitter:image" content="https://knzkapp.yuzu.tk/img/knzk.ogp.png"/>
+    <meta name="twitter:url" content="https://knzkapp.yuzu.tk"/>
+
+    <meta property="og:title" content="KnzkAppトップページ"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://knzkapp.yuzu.tk"/>
+    <meta property="og:image" content="https://knzkapp.yuzu.tk/img/knzk.ogp.png"/>
+    <meta property="og:site_name" content="KnzkApp - 独自機能インスタンス向けMastodonクライアント"/>
+    <meta property="og:description" content="独自機能インスタンス向けのMastodonクライアントです。様々な機能に対応。オープンソース。" />
 
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
@@ -48,7 +69,7 @@
         <div class="row h-100">
             <div class="col-lg-7 my-auto">
                 <div class="header-content mx-auto">
-                    <h1 class="mb-5">KnzkAppは、BBCodeやカスタム絵文字に対応した神崎丼専用Mastodonクライアントです。</h1>
+                    <h1 class="mb-5">KnzkAppは、BBCodeやMarkdown、アンケートに対応した独自機能インスタンス向けのMastodonクライアントです。</h1>
                     <a href="#download" class="btn btn-outline btn-xl js-scroll-trigger">Download Now</a>
                 </div>
             </div>
@@ -57,9 +78,8 @@
                     <div class="device-mockup nexus7 portrait black">
                         <div class="device">
                             <div class="screen">
-                                <img src="img/App-Nexus5.png?2017-09-22" class="img-fluid" alt="">
+                                <img src="img/Screenshot_20180311-200729.png" class="img-fluid" alt="">
                             </div>
-                            <div class="button">
                             </div>
                         </div>
                     </div>
@@ -86,7 +106,7 @@
 <section class="features" id="features">
     <div class="container">
         <div class="section-heading text-center">
-            <h2>神崎丼の独自仕様に対応</h2>
+            <h2>様々なインスタンスの独自仕様に対応</h2>
             <hr>
         </div>
         <div class="row">
@@ -108,14 +128,20 @@
                             <div class="feature-item">
                                 <i class="fa fa-font text-primary"></i>
                                 <h3>BBCode</h3>
-                                <p class="text-muted">トゥートのBBCodeが表示できる他、BBCodeジェネレーターも搭載。簡単に楽しいトゥートを作成可能です。</p>
+                                <p class="text-muted">
+                                    トゥートのBBCodeが表示できる他、BBCodeジェネレーターも搭載。簡単に楽しいトゥートを作成可能です。<br>
+                                    <small><a href="https://now.kibousoft.co.jp" target="_blank">now.kibousoft.co.jp</a></small>
+                                </p>
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <div class="feature-item">
-                                <i class="fa fa-smile-o text-primary"></i>
-                                <h3>Custom Emoji</h3>
-                                <p class="text-muted">標準の絵文字はもちろん、神崎丼でのみ使用できるカスタム絵文字が表示できます。</p>
+                                <i class="fa text-primary">MD</i>
+                                <h3>Markdown</h3>
+                                <p class="text-muted">
+                                    BBCodeとはまた違ったトゥートを作成する事ができます。<br>
+                                    <small><a href="https://kirishima.cloud" target="_blank">kirishima.cloud</a></small>
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -126,7 +152,10 @@
                             <div class="feature-item">
                                 <i class="fa fa-align-left text-primary"></i>
                                 <h3>Enquete</h3>
-                                <p class="text-muted">アンケートの作成、投票が行えます。</p>
+                                <p class="text-muted">
+                                    アンケートの作成、投票が行えます。<br>
+                                    <small><a href="https://friends.nico" target="_blank">friends.nico</a></small>
+                                </p>
                             </div>
                         </div>
                         <div class="col-lg-6">
