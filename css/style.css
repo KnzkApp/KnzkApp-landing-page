@@ -1,0 +1,40 @@
+.top_title {
+  text-align: center;
+}
+
+.store_link {
+  display: block;
+  margin-bottom: 25px;
+}
+
+.store_link img {
+  height: 70px;
+}
+
+@media (max-width: 991px) {
+  header.masthead {
+    padding-top: 80px;
+  }
+}
+
+@media (min-width: 992px) {
+  .title {
+    display: none;
+  }
+
+  .navbar-shrink .title {
+    display: initial;
+  }
+
+  .top_title {
+    padding-top: 80px;
+  }
+
+  .top_device {
+    transform: translate(0,-70%);
+  }
+
+  #features {
+    max-height: 500px;
+  }
+}

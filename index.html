@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
+  <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta content='#212121' name='theme-color'>
@@ -12,7 +12,7 @@
 
     <meta name="description" content="独自機能インスタンス向けのMastodonクライアントです。様々な機能に対応。オープンソース。">
     <title>KnzkApp - 独自機能インスタンス向けMastodonクライアント</title>
-    <meta name="keywords" content="KnzkApp,神崎丼アプリ,Knzk.me,ねじりわさび,Mastodonクライアント,アプリ,独自機能">
+    <meta name="keywords" content="KnzkApp,神崎丼アプリ,Knzk.me,神崎おにいさん,ねじりわさび,Mastodonクライアント,アプリ,独自機能,SNS">
 
     <meta name="twitter:card" content="summary"/>
     <meta name="twitter:site" content="@neziri_wasabi"/>
@@ -36,186 +36,283 @@
     <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
     <link rel="stylesheet" href="device-mockups/device-mockups.css">
     <link href="css/new-age.min.css" rel="stylesheet">
-</head>
+    <link href="css/style.css" rel="stylesheet">
+  </head>
 
-<body id="page-top">
-<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-    <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">KnzkApp</a>
+  <body id="page-top">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top"><span class="title">KnzkApp</span></a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fa fa-bars"></i>
+          <i class="fa fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                  <a class="nav-link js-scroll-trigger" href="#download">Download</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#features">features</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://github.com/KnzkDev/KnzkApp" target="_blank"><i class="fa fa-github"></i> Source code</a>
-                </li>
-            </ul>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#features">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#support">Support</a>
+            </li>
+          </ul>
         </div>
-    </div>
-</nav>
+      </div>
+    </nav>
 
-<header class="masthead">
-    <div class="container h-100">
-        <div class="row h-100">
-            <div class="col-lg-7 my-auto">
-                <div class="header-content mx-auto">
-                    <h1 class="mb-5">KnzkAppは、BBCodeやMarkdown、アンケートに対応した独自機能インスタンス向けのMastodonクライアントです。</h1>
-                    <a href="#download" class="btn btn-outline btn-xl js-scroll-trigger">Download Now</a>
-                </div>
-            </div>
-            <div class="col-lg-5 my-auto">
-                <div class="device-container">
-                    <div class="device-mockup nexus7 portrait black">
-                        <div class="device">
-                            <div class="screen">
-                                <img src="img/Screenshot_20180311-200729.png" class="img-fluid" alt="">
-                            </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</header>
-
-<section class="download bg-primary text-center" id="download">
-    <div class="container">
+    <header class="masthead">
+      <div class="top_title">
+        <img src="img/xxxhdpi.png" style="max-height: 100%;height: 150px;margin-bottom: 10px"/>
+        <h1>KnzkApp</h1>
+        <h4>Mastodonを"どこでも"もっと楽しくするクライアント</h4>
+        様々なインスタンスの独自機能に対応
+      </div>
+      <div class="container" style="padding-top: 15%">
         <div class="row">
-            <div class="col-md-10 mx-auto">
-                <h2 class="section-heading">Download</h2>
-                <div class="badges">
-                    <a class="badge-link" href="https://play.google.com/store/apps/details?id=net.knzkdev.app"><img src="img/google-play-badge.svg" alt="GooglePlay"></a>
-                    <a class="badge-link" href="https://itunes.apple.com/jp/app/knzkapp/id1296825434?l=ja"><img src="img/app-store-badge.svg" alt="AppStore"></a>
-                </div>
-            </div>
+          <div class="col-lg-3 text-center">
+            <a class="store_link" href="https://play.google.com/store/apps/details?id=net.knzkdev.app" target="_blank"><img src="img/google-play-badge.svg" alt="GooglePlay"></a>
+            <a class="store_link" href="https://itunes.apple.com/jp/app/knzkapp/id1296825434?l=ja" target="_blank"><img src="img/app-store-badge.svg" alt="AppStore"></a>
+          </div>
+          <div class="col-lg-6">
+          </div>
+          <div class="col-lg-3">
+            <!--<a class="store_link btn btn-lg btn-primary" href="#">DeskTop</a>-->
+            <a class="store_link btn btn-lg btn-dark" href="https://github.com/KnzkDev/KnzkApp" target="_blank">Source code</a>
+          </div>
         </div>
-    </div>
-</section>
+      </div>
+    </header>
 
-<section class="features" id="features">
-    <div class="container">
-        <div class="section-heading text-center">
-            <h2>様々なインスタンスの独自仕様に対応</h2>
-            <hr>
-        </div>
+    <section class="features bg-primary" id="features">
+      <div class="container">
         <div class="row">
-            <div class="col-lg-4 my-auto">
-                <div class="device-container">
-                    <div class="device-mockup iphone6_plus portrait white">
-                        <div class="device">
-                            <div class="screen">
-                                <img src="img/BBCode_iPhone.png?2017-09-22_3" class="img-fluid" alt="">
-                            </div>
-                        </div>
+          <div class="col-lg-3"></div>
+          <div class="col-lg-6">
+            <div class="align-content-center">
+              <div class="device-container top_device" style="max-width: 100%;">
+                <div class="device-mockup nexus7 portrait black">
+                  <div class="device">
+                    <div class="screen">
+                      <img src="img/screenshot_topimage.png" class="img-fluid" alt="screenshot">
                     </div>
+                  </div>
                 </div>
+              </div>
             </div>
-            <div class="col-lg-8 my-auto">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <div class="feature-item">
-                                <i class="fa fa-font text-primary"></i>
-                                <h3>BBCode</h3>
-                                <p class="text-muted">
-                                    トゥートのBBCodeが表示できる他、BBCodeジェネレーターも搭載。簡単に楽しいトゥートを作成可能です。<br>
-                                    <small><a href="https://now.kibousoft.co.jp" target="_blank">now.kibousoft.co.jp</a></small>
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="feature-item">
-                                <i class="fa text-primary">MD</i>
-                                <h3>Markdown</h3>
-                                <p class="text-muted">
-                                    BBCodeとはまた違ったトゥートを作成する事ができます。<br>
-                                    <small><a href="https://kirishima.cloud" target="_blank">kirishima.cloud</a></small>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <div class="feature-item">
-                                <i class="fa fa-align-left text-primary"></i>
-                                <h3>Enquete</h3>
-                                <p class="text-muted">
-                                    アンケートの作成、投票が行えます。<br>
-                                    <small><a href="https://friends.nico" target="_blank">friends.nico</a></small>
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="feature-item">
-                                <i class="fa fa-bell text-primary"></i>
-                                <h3>more...</h3>
-                                <p class="text-muted">その他にも細かな独自仕様に対応。</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          </div>
+          <div class="col-lg-3">
+            <h3>「TLトゥートボックス」を搭載</h3>
+            今までのモバイルクライアントにはおそらく無かったであろう投稿の全ての機能が詰まったトゥートボックスがタイムラインの下部に設置されています。<br>
+            これにより、<b>タイムラインを見ながらリアルタイムにトゥートする</b>事ができます。
+          </div>
         </div>
-    </div>
-</section>
-
-<section class="contact bg-primary" id="contact">
-    <div class="container">
+        <div class="row"><hr></div>
+      </div>
+    </section>
+    <section class="features">
+      <div class="container" id="customize-instance">
+        <h2 class="text-center">様々なインスタンスの独自仕様に対応</h2>
         <div class="row">
-            <div class="col-md-4"></div>
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">
-                            <img src="https://gravatar.com/avatar/662329f36d2f92579a2b50f32b5adee0?s=100" style="border-radius:100%;padding-bottom: 5px"/><br>
-                            ねじりわさび
-                        </h5>
-                        <h6 class="card-subtitle mb-2 text-muted">@y@knzk.me</h6>
-                        <p class="card-text">KnzkApp作った人です。学生やってます。</p>
-                        <a href="https://knzk.me/@y" class="card-link" target="_blank">Mastodon</a>
-                        <a href="http://amzn.asia/7FRzk9C" class="card-link" target="_blank">Donate</a>
-                    </div>
+          <div class="col-lg-4 my-auto">
+            <div class="device-container">
+              <div class="device-mockup iphone6_plus portrait white">
+                <div class="device">
+                  <div class="screen">
+                    <img src="img/BBCode_iPhone.png?2017-09-22_3" class="img-fluid" alt="">
+                  </div>
                 </div>
+              </div>
             </div>
-            <div class="col-md-4"></div>
+          </div>
+          <div class="col-lg-8 my-auto">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="feature-item">
+                    <i class="fa"><img src="img/glitch.png" style="width: 1em;border-radius: 5%"/></i>
+                    <h3>Glitch-soc</h3>
+                    <p class="text-muted">
+                      ローカル限定トゥートなどが実装されたMastodon<br>
+                      <small><a href="https://knzk.me" target="_blank">knzk.me</a></small>
+                    </p>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="feature-item">
+                    <i class="fa fa-font text-primary"></i>
+                    <h3>BBCode / Markdown</h3>
+                    <p class="text-muted">
+                      文字の装飾<br>
+                      <small><a href="https://now.kibousoft.co.jp" target="_blank">now.kibousoft.co.jp</a> (BBCode)</small><br>
+                      <small><a href="https://kirishima.cloud" target="_blank">kirishima.cloud</a> (BBCode, Markdown)</small>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="feature-item">
+                    <i class="fa fa-align-left text-primary"></i>
+                    <h3>Enquete</h3>
+                    <p class="text-muted">
+                      投票機能<br>
+                      <small><a href="https://friends.nico" target="_blank">friends.nico</a></small>
+                    </p>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="feature-item">
+                    <i class="fa text-primary">あ</i>
+                    <h3>読み仮名</h3>
+                    <p class="text-muted">
+                      トゥートに自由につけられる読み仮名<br>
+                      <small><a href="https://theboss.tech" target="_blank">theboss.tech</a></small>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-    </div>
-</section>
+      </div>
+    </section>
 
-<footer>
-    <div class="container">
+    <section class="bg-primary text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 mx-auto">
+            <h2 class="section-heading">高機能プッシュ通知機能</h2>
+            <p>
+              通常の通知を配信できる事はもちろん、HTLで事前に設定したキーワードが発言されたら通知する<b>「キーワード検知」</b>機能があります。<br>
+              あなたに関する話題でHTLが盛り上がっていたら、すぐにお知らせします。
+            </p>
+            <p>
+              また、フィルター機能によりユーザーごとに通知させるか制御させる事が可能です。
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="text-center features">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 mx-auto">
+            <h2 class="section-heading">他にも...</h2>
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-4">
+                  <div class="feature-item">
+                    <i class="fa fa-filter text-primary"></i>
+                    <h3>フィルター</h3>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="feature-item">
+                    <i class="fa fa-bookmark-o text-primary"></i>
+                    <h3>ブックマーク</h3>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="feature-item">
+                    <i class="fa fa-angle-double-up text-primary"></i>
+                    <h3>長文折りたたみ</h3>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="feature-item">
+                    <i class="fa fa-users text-primary"></i>
+                    <h3>マルチログイン</h3>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="feature-item">
+                    <i class="fa fa-cogs text-primary"></i>
+                    <h3>テーマ変更</h3>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="feature-item">
+                    <i class="fa fa-user text-primary"></i>
+                    <h3>プロフィール編集</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact bg-primary text-center" id="support">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 mx-auto">
+            <h2 class="section-heading">Support</h2>
+            <p>
+              <a href="https://knzkapp-help.nzws.me/ja/latest/" target="_blank" style="color: #007bff">KnzkApp ヘルプサイト(準備中)</a>
+            </p>
+            <p>
+              KnzkAppは<a href="https://github.com/KnzkDev" target="_blank" style="color: #007bff">KnzkDev Team</a>によって開発/管理されています。<br>
+              お問い合わせはこちらまでお願いします。
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4"></div>
+          <div class="card col-md-4">
+            <div class="card-body">
+              <h5 class="card-title">
+                <img src="https://gravatar.com/avatar/662329f36d2f92579a2b50f32b5adee0?s=100" style="border-radius:100%;padding-bottom: 5px"/><br>
+                ねじりわさび
+              </h5>
+              <h6 class="card-subtitle mb-2 text-muted">@y@knzk.me</h6>
+              <a href="https://knzk.me/@y" class="card-link" target="_blank">Mastodon</a>
+              <a href="mailto:knzkapp@nzws.me" class="card-link">Email</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 mx-auto" style="margin-top: 20px">
+            <p>
+              また、<a href="http://kibousoft.co.jp" target="_blank" style="color: #007bff">合同会社きぼうソフト</a>様に開発環境やiOS版のサポートをして頂いています。<br>
+            </p>
+            <div class="card">
+              <div class="card-body">
+                <a href="http://kibousoft.co.jp" target="_blank"><img src="img/kibousoft.png" style="max-width: 80%"/></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
         <p>KnzkAppはオープンソースソフトウェアです。 <a href="https://github.com/KnzkDev/KnzkApp" target="_blank"><i class="fa fa-github"></i> KnzkDev/KnzkApp</a> から開発に参加したり、問題を報告する事ができます。</p>
         <ul class="list-inline">
-            <li class="list-inline-item">
-                <a href="https://knzk.me/" target="_blank">神崎丼</a>
-            </li>
-            <li class="list-inline-item">
-                <a href="https://knzk.me/about/more" target="_blank">利用規約</a>
-            </li>
-            <li class="list-inline-item">
-                <a href="https://knzk.me/terms" target="_blank">プライバシーポリシー</a>
-            </li>
+          <li class="list-inline-item">
+            <a href="https://knzk.me/" target="_blank">神崎丼</a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://knzk.me/about/more" target="_blank">利用規約</a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://knzk.me/terms" target="_blank">プライバシーポリシー</a>
+          </li>
         </ul>
-    </div>
-</footer>
+      </div>
+    </footer>
 
-<script src="vendor/jquery/jquery.min.js"></script>
-<script src="vendor/popper/popper.min.js"></script>
-<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-<script src="js/new-age.min.js"></script>
-</body>
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/popper/popper.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="js/new-age.min.js"></script>
+  </body>
 </html>
